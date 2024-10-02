@@ -3224,16 +3224,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42994
+Installed-Size: 42986
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
-Size: 12623228
-MD5sum: 9603e62e58a1a6fc0b96c0d63b1c865e
-SHA1: a6cbe46d7cbc615c4ec1808f90abec6087463264
-SHA256: 0dc1909a27011dec90dd720cad3dc71511812328f16226c18418528da7af46da
+Size: 12618776
+MD5sum: c31c81a1378b38d218efd55a1b3e72f2
+SHA1: b690e095c98ed71de18cee11476f3c10032006aa
+SHA256: b8b6aab71c73619a8b2da5dd8caae267a55e519ac806be36d30afad0ee78fa54
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3262,16 +3262,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42999
+Installed-Size: 42991
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
-Size: 12618892
-MD5sum: f2cbbdb3757e1e27869c897faa15affb
-SHA1: 5d149c733bafc1202681f008a4156e1887614e81
-SHA256: f502a02cc868d0d7674dc354fd0a764335cd7734b530bf823f9731fc8949b336
+Size: 12610640
+MD5sum: cb8c85994372fd75358e3f64497741b4
+SHA1: d4177e803d6ddd6a2ed27e07e320b7a9931dd4c9
+SHA256: dafa3bc21f1b137a520451fe734b18f720eadcb0a099c5e8fce46192b3f64bdf
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3300,16 +3300,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43110
+Installed-Size: 43102
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 12622648
-MD5sum: 5fd988d8243bfb644ab3a67b7a023b13
-SHA1: 896161eed4e648c6f79024ef21658d08dbb76927
-SHA256: 373bd8f1a992a66ecd85cc8b9bc90cf0d0d80a64b452e767da678732d0b70d07
+Size: 12622272
+MD5sum: 17d86ce40e3914503cedc7a466a009a4
+SHA1: 6ff20871fe08ec640091afa660f5c9139440963a
+SHA256: 1c71bebab21c7a7bf7a2ea2ffc9a59051a15eb93c64c69eb845077075f5d6678
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3338,16 +3338,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43055
+Installed-Size: 43047
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 12624760
-MD5sum: fad960f17b93fe3c7dcd1249fbe7fc30
-SHA1: e368a624f053eb7364cd5a2f9861eda93b956efc
-SHA256: 89e7c61fdcb56893e469377c798bda0c64ff395522a2854e74216d58c6093368
+Size: 12618604
+MD5sum: 5be79cffab8088d121a51ddc45707b00
+SHA1: b0c925f598cc9bc9fd7f29c03fca207d33af91ef
+SHA256: 767a7bbe8aa02c180e0eb93d2f3436efbf0b6e1b5ef27f7de9786f382e368f25
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3376,16 +3376,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43146
+Installed-Size: 43138
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
-Size: 12631608
-MD5sum: d43ae04f752e41a4bc78af6e8783e6c0
-SHA1: d10fb3e6fe2ba20fd16aa65862b23b0aae834209
-SHA256: 5d28ed8c07b2955ce13a68c6e6620f568feb1c2d208541279b0dd7f29e879b7d
+Size: 12628412
+MD5sum: feed0af948ae7e12b317b078f5e1794e
+SHA1: 9110a483c61c08917d2ee51a89560f295bfe4310
+SHA256: 2ccac828a0913caa008f21e00e6ed6ff813c2697ea8d7a20e2c4ed89f32d8e18
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3414,16 +3414,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43372
+Installed-Size: 43364
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
-Size: 11692564
-MD5sum: c65b2bb1070552130f18b34f75c166c9
-SHA1: 6c6c8b6868661cd1249ca78fc043c2a6a7d8ca05
-SHA256: 403c06537567f2b785d4e3f4e974bef492732a265048451f87f9f3511f41d7fd
+Size: 11690844
+MD5sum: 80978de2d8b1f41dbde5ff8c7b3948fc
+SHA1: 081f471d164544b621939dcc03196bf48c2b9c6c
+SHA256: 974fdc5e7a90a34ef90e6219996237c39e432dd37d77183d48631e21550463db
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3452,16 +3452,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43433
+Installed-Size: 43425
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
-Size: 11695400
-MD5sum: dee70da2d379a82e4c328179c3d456c2
-SHA1: f42fbbae70870cc00ba7f75781c71c5f3584c6ad
-SHA256: d00dd512a69d242893dbac1e6fafca22afe041a2eed7ce3d3ec1bce247ca33fb
+Size: 11690188
+MD5sum: 9fd1c973436e2c3418156bb8e0f48cc1
+SHA1: 29df9ae0d390957e22c2ab2e480473c204eadd07
+SHA256: 1743b31ce7abc581dfc17cc7defabcd6902aca67353ec45191134f50a65d73d6
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3490,16 +3490,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43506
+Installed-Size: 43498
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
-Size: 11704208
-MD5sum: 510df850ed4b40380ac923ee07b8b42d
-SHA1: 89c9eeeef6d2a982c704e4e177b5734605303217
-SHA256: 763dde784e2d7073924cf6a5e997ebf6674b6aa6171a121d5cf717e2e82654e7
+Size: 11698976
+MD5sum: bd4a3013a38d94f52e49ab58afde72ec
+SHA1: d0b65e18dec3d9d7a5806bacc71fca4907e897dd
+SHA256: cf05f96aabe00b27ff1d88d79a299f2a522d77519d4252dcdff6aea9167f9a1e
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3528,16 +3528,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43450
+Installed-Size: 43442
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
-Size: 11689236
-MD5sum: c7c7326b739a00a2256e35512a55bbd9
-SHA1: 3fa603e5817cbed0569264f3a86a1bbb284e86f3
-SHA256: d51dde339530b7c45a8fe0852fee1ddc66f2defb9ffce233f30fa565cd06ddce
+Size: 11692896
+MD5sum: 4b455f8bbb9703f360a28c8b202de0b5
+SHA1: cbfa2ccf72a6e982c14b79ad5a03de20624848de
+SHA256: e42d0a313736a86db3712858bfb6f3181e090336925ab8eff491484190a36a68
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -3566,16 +3566,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43531
+Installed-Size: 43523
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/bookworm/main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
-Size: 11703912
-MD5sum: 3239c762714240e6b833ee0fdd1ad6e3
-SHA1: b28a6d724830c2e2a3c5d7ee1dc398f1a76641c6
-SHA256: e37d4b53f3b3dd5c602c97ff2c9ef76294679bbb92548a46cea3b48e973edb82
+Size: 11703300
+MD5sum: 16b591720bdf2d0508952949d8a71bb6
+SHA1: 526de7f54fd4f0e047b8ff95d71fef9f74935ec3
+SHA256: 344ee805813850b42273630c39fe53c68c3e6b89141d0f0429866270284ea16c
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
