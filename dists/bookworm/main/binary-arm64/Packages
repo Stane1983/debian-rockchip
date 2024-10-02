@@ -4501,3 +4501,447 @@ Priority: optional
 Description: debug symbols for v4l-utils
 Build-Ids: 13c1c356840dff4717fef197757f91b7dae5c8e5 3fda78e575e263fc38e85759684c55c19c8baa07 4e354d65a0b0ba55b407d44dc9453bc3eb2d0f85 532c150d719b2df77ccabaec0915ec8f07b31886 5a705e900acb1a79c5fbc979d14445caf03fb28a 5fd6cbb41be5697583d69b9e567afea91bf648df 761546eab3ddd2369712e6deebb3117b31993b5d 7bf732a51f204d2a6e7e31e0b0d17943c1d2c5d0 9ca6ce670a301173b3528c02a06ce51be64f3d83 af1b59261b5a8a05bf1d1356c90dd11ba9da4d62 cf3c371d03f65b4c73032ab484e1b841a60da3ee d6048806ee22b955f6e35fd3402d4cd974802872 d90bf7c082029897f3daa24659faab6531552340
 
+Package: xdmx
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1995
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libunwind8, libx11-6 (>= 2:1.6.0), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont2 (>= 1:2.0.1), libxi6, libxmuu1, libxrender1, libxshmfence1
+Filename: dists/bookworm/main/binary-arm64/xdmx_1.20.4-1+deb10u3_arm64.deb
+Size: 753280
+MD5sum: 7ee7cb6017ac2cafd83ea369e197a2fc
+SHA1: df0053ac127cf1608d47c41e92563d3bbbc713a1
+SHA256: 7bfa50e10d6c784da2848eb8b0539d9d7fc17f407ff6e5ac9b1b036de7f057cc
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: distributed multihead X server
+ Xdmx is a proxy X server that uses one or more other X servers as its
+ display device(s). It provides multi-head X functionality for displays that
+ might be located on different machines. Xdmx functions as a front-end X server
+ that acts as a proxy to a set of back-end X servers. All of the visible
+ rendering is passed to the back-end X servers. Clients connect to the Xdmx
+ front-end, and everything appears as it would in a regular multi-head
+ configuration. If Xinerama is enabled (e.g., with +xinerama on the command
+ line), the clients see a single large screen.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xdmx-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 6006
+Depends: xdmx (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xdmx-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 5798876
+MD5sum: 965352c8ac66c9a4eb4fcf7aca072d2d
+SHA1: bdf79d678b8f626934744c3f128050f9db72bb60
+SHA256: 12a656d497fa259bc1d4e137a66bc56939b02d7be587e935d0a514545e8afbc1
+Section: debug
+Priority: optional
+Description: debug symbols for xdmx
+Build-Ids: 4bdb6d4838938b90964788aa51cb4772f7998c6f
+
+Package: xdmx-tools
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 374
+Depends: xdmx, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.0), libc6 (>= 2.17), libdmx1, libx11-6, libxaw7, libxext6, libxmu6, libxpm4, libxt6
+Filename: dists/bookworm/main/binary-arm64/xdmx-tools_1.20.4-1+deb10u3_arm64.deb
+Size: 100160
+MD5sum: 73dde91e58abeea44224f0ce3c9faf56
+SHA1: 28a25589e142ec7edfa3d4d3772ec52638466622
+SHA256: 0548798584c46c40a78cb8cc53e5c3ae2831b378579d97e352980332af9cfdb3
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Distributed Multihead X tools
+ This package provides a collection of tools used for administration of
+ the Xdmx server; see the xdmx package for more information.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xdmx-tools-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 344
+Depends: xdmx-tools (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xdmx-tools-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 234240
+MD5sum: 9107598b1f4dc01f3ee0f9977590334c
+SHA1: e59edad2e1f3ef5edfc013a9c53892049b2ccaf0
+SHA256: c942675cea00e8e7511bf53cb2d6a899aa5541bedfc612dccd1a57344a367a54
+Section: debug
+Priority: optional
+Description: debug symbols for xdmx-tools
+Build-Ids: 1170b63fbd62c08a5806fa3e8d9819e1ed19f52a 1ed92979aac706807586afaeba7ac7a09d91cffb 2dbce7fe45009af5ceca24489cc971102c70fbd9 43279056108e4c11fff43ac4f846551c6af4f26f 610dce995afd96d2be5b803bd6fa64b0c2d17b32 6cd740105d757b6999c6f5a86f9179c5aa537107 85d910f8219c40f4c1010ef69c2110dc721ab699 a6ca87e609a8c9f80c22606e07966b4977fe90c6 b3d222464d478c72d75aa3a475aa1193396d390a bbb296b7f985cd86c7327c35115f35344bef65b7 d4b7934d6cc7451b321f53b69e05745a4d8e145d
+
+Package: xnest
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1750
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libsystemd0, libunwind8, libx11-6, libxau6, libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Filename: dists/bookworm/main/binary-arm64/xnest_1.20.4-1+deb10u3_arm64.deb
+Size: 654120
+MD5sum: 128d8b50dea0e6d00e32d82d51e9fe60
+SHA1: e7d58c329d946e868c9c8699d00e13d489acebde
+SHA256: a2522e8b6b6ddf45063a092c19c45c763e839407efbe5e818d3d4f51917191a5
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xnest-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4562
+Depends: xnest (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xnest-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 4358128
+MD5sum: c7983fc1b46af0fd66b281aa71c90dd3
+SHA1: 55b1f1df052004a5748da33c953bebdd5c47a47d
+SHA256: 6c5baeaed8e2c4f943a48a0a5885495e7284d7865b2e6cedf7f0d1fbdd269b75
+Section: debug
+Priority: optional
+Description: debug symbols for xnest
+Build-Ids: de3ad8a38a45ae1ed262a14b41dc904feb7e651a
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3347
+Filename: dists/bookworm/main/binary-arm64/xorg-server-source_1.20.4-1+deb10u3_all.deb
+Size: 3275920
+MD5sum: 6785d028ca81335239c8450c35243188
+SHA1: 96f241d949c68457b6b433c49a477ea54444c871
+SHA256: 16648dba1b543ea22e989848a61cedd3175b6fe661050e204660cb6e7b6c20a2
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 187
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/bookworm/main/binary-arm64/xserver-common_1.20.4-1+deb10u3_all.deb
+Size: 72136
+MD5sum: f6239d5639664183ad4eb3d0bc2a88cb
+SHA1: c8a18a27c875d9483219c56d661cf46588adf952
+SHA256: 17a5dac5bba3ef5ed4e6e4c2e5ab1e360d892076b332472d0996b81c80dbd083
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+
+Package: xserver-xephyr
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2492
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.3.1), libepoxy0 (>= 1.0), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libunwind8, libx11-6, libx11-xcb1, libxau6, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util0 (>= 0.3.8), libxcb-xf86dri0, libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Filename: dists/bookworm/main/binary-arm64/xserver-xephyr_1.20.4-1+deb10u3_arm64.deb
+Size: 897780
+MD5sum: 89f8bdaba089c02c8b5fca9873fc105e
+SHA1: b028ddb27e064826214f0c5b5a5c094eec5dfccc
+SHA256: 595472665ac5d0ac8ee394b5115417da5101d270ecc180a444e9f0509ae82dec
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xephyr-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 8370
+Depends: xserver-xephyr (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xserver-xephyr-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 8063832
+MD5sum: 0d25fcf3413ab7a6762d302b770272e2
+SHA1: 99a0f45b2ba2f7d92a3404fab450172c8e454d3d
+SHA256: 212d2c0ce2f2c6a51149198e4964ed3a5e70dafd29f991f6310aaed79ffbace3
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xephyr
+Build-Ids: d5f1e212bb15054f282f5fbd3373e8b602b145b5
+
+Package: xserver-xorg-core
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3820
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), keyboard-configuration, udev (>= 149), libegl1-mesa | libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.66), libepoxy0 (>= 1.4.3), libgbm1 (>= 17.1.0~rc2), libgcrypt20 (>= 1.8.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), librga2, libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libunwind8, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), libpam-systemd
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Provides: xorg-input-abi-24, xorg-video-abi-24, xserver-xorg-video-modesetting
+Filename: dists/bookworm/main/binary-arm64/xserver-xorg-core_1.20.4-1+deb10u3_arm64.deb
+Size: 1292944
+MD5sum: fa29161cfbdf93b64ead1e2c972c8f81
+SHA1: 90e718999a204ded5bee51c8080d8e7d2dca4db0
+SHA256: d4537e63705abed2fafd6c7fca18fef9e81cbfbc52a26ee1909ddaa46bf2b23a
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-core-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11685
+Depends: xserver-xorg-core (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xserver-xorg-core-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 11158228
+MD5sum: c999bbc15a4e7dab30ef868d2bd484a2
+SHA1: 782a32ab81c0e49244200a94f8eab162154f663c
+SHA256: b2b0e889003f2549c74851dea8093c079b80ece073e66afb52f6babde2c0d125
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xorg-core
+Build-Ids: 0161926fd768b821e5f0277d7f47b02e89256717 29fd264249c5fb96f2074784e81fb873c1449d68 2e97906ec774111ad4ea62b1b36c74bec1aadb73 42033e1ad556f224a81641059e5a0447b3268386 443d4db62e07a92f8b9670d49f7724f449ccf50e 4c07e0871c1424232d24a1913308792f1207f3bc 5370112b904568d0a94552f964e339b9715e9da8 57c601016829f4e17b0826cface0ebeedca613ee 651fe5766f13eb28fa40cb1ebf91ddaa13d7d10c 812ac21b9a66d009e16f964b2b5d9026d5f488ba c0a5520483a781f115465436064c01a7015b0780 cd2bb09eccd6fa811d31a740dea8a7505e103678 d15b1f0ecc0fb42b4cdd861f675a33b3e48ec636 da45ce7f00df7450beea4cc231a3a166b7f50931 e50c44897b65b40c21e5adaf0a80968b662763ea
+
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1387
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2018.4), libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Filename: dists/bookworm/main/binary-arm64/xserver-xorg-dev_1.20.4-1+deb10u3_arm64.deb
+Size: 245936
+MD5sum: 061544762a679061fe3ec10bf1d89672
+SHA1: 13c2d18d6caf029463d87b71292597c0cbeb088c
+SHA256: 1fcc0ab1d3e5b2a1dfa8730484fd1ad682535d5f07c0d8529736f74bd895df6f
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 214
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.0), libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: dists/bookworm/main/binary-arm64/xserver-xorg-legacy_1.20.4-1+deb10u3_arm64.deb
+Size: 77592
+MD5sum: 6a3c06ee0e732aa3b1d510ce65c6e35d
+SHA1: 5e87fa13b9044244de70a23261ea27d301cac6f2
+SHA256: f7d1b8b82f5c55f05dba8c6d9609d7ed87c3036a41a4caae98c4c525a8c2b4a1
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xorg-legacy-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 25
+Depends: xserver-xorg-legacy (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xserver-xorg-legacy-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 9992
+MD5sum: 24adb618584b259adcdc831f88f53c79
+SHA1: 8a3f56218f2a1b358d6bb7278a15fb99c8cbd118
+SHA256: 9b898ad56153210a23b84911154857856a48ad5ad732af8b431dccbf1467323f
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xorg-legacy
+Build-Ids: 414ee5572d55607b65ea1066c0d411b6b33fe2c5
+
+Package: xvfb
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2153
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libunwind8, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: xauth
+Provides: xserver
+Filename: dists/bookworm/main/binary-arm64/xvfb_1.20.4-1+deb10u3_arm64.deb
+Size: 771292
+MD5sum: 8afafc78d3e70606387c845941829cd0
+SHA1: 6f17ef757ea90e4daf2a3254b824f78cf0aabe37
+SHA256: e422bb75d8656029c436b826c127184b5fbfddc6781ceed2ae4a1ecb60c10e12
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xvfb-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5601
+Depends: xvfb (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xvfb-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 5307464
+MD5sum: 4ea287c5637884c875e56786544e1cec
+SHA1: 40044420b18d2718d5f39cabf291d95c62581086
+SHA256: 2aae2c4023e7e89acd37becab5c14dbaf635765577de923d69edff09f4d271df
+Section: debug
+Priority: optional
+Description: debug symbols for xvfb
+Build-Ids: 47051b6e3fba2c20ea562fbc0a88957adc8adf4e
+
+Package: xwayland
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2389
+Depends: xserver-common (>= 2:1.20.4-1+deb10u3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.17), libdrm2 (>= 2.3.1), libegl1, libepoxy0 (>= 1.0), libgbm1 (>= 17.1.0~rc2), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libunwind8, libwayland-client0 (>= 1.9.91), libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Filename: dists/bookworm/main/binary-arm64/xwayland_1.20.4-1+deb10u3_arm64.deb
+Size: 853392
+MD5sum: 13db5046da1b51319ddb980491fae76d
+SHA1: 577e4ca142bb6fb0c0e5e41490cfc8963e0d17b7
+SHA256: 557efd2610e5184ff1647c1662f6744372d87ff7ff88db55cd21d830916dc3d4
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xwayland X server
+ This package provides an X server running on top of wayland, using wayland
+ input devices for input and forwarding either the root window or individual
+ top-level windows as wayland surfaces.
+
+Package: xwayland-dbgsym
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 7994
+Depends: xwayland (= 2:1.20.4-1+deb10u3)
+Filename: dists/bookworm/main/binary-arm64/xwayland-dbgsym_1.20.4-1+deb10u3_arm64.deb
+Size: 7701836
+MD5sum: 443edb76a248b0ec39ce30d1184353b8
+SHA1: 99af1db5b4fc2823dda2828df09e6b5d3fd19311
+SHA256: 2ed2a06531b465331b376ce4d6d290f41d1ef71c8eef38d5e942ab538f8936c4
+Section: debug
+Priority: optional
+Description: debug symbols for xwayland
+Build-Ids: e8f40e0d3d5fd72abdb2be9c5dc5cf4180e4e88e
+
