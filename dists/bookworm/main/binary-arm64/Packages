@@ -4425,18 +4425,18 @@ Build-Ids: 91fae236290ad3bfa6147586628897a374de4ba7 b3706b6495fe008661049de09ea9
 Package: rockchip-firmware
 Version: 20231105.git2107be54-19~bookworm
 Architecture: all
-Maintainer: Joshua Riek <jjriek@verizon.net>
-Installed-Size: 33562
+Maintainer: Stanislav Vlasic <svlasic@gmail.com>
+Installed-Size: 35784
 Replaces: armbian-firmware, orangepi-firmware
 Filename: dists/bookworm/main/binary-arm64/rockchip-firmware_20231105.git2107be54-19~bookworm_all.deb
-Size: 6863220
-MD5sum: 59738c03588af0e56b041ae08416c68e
-SHA1: 0e0b60dce7fcaaad6efb6ddb2fa2610c9318cc10
-SHA256: 969779f7c68ab23dd1e26386597203067e9b4896093a36f0e94da4dc0fbb4c1c
+Size: 7152596
+MD5sum: f272e64d737dae98cdb35a046b04a420
+SHA1: ad120181c5ed85369d85c901fcbc33fa5571539d
+SHA256: 5f9a82615946d4662702db08a8bbee7cba87ce57b4a3981acba45ebd72ece73e
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://github.com/Joshua-Riek/firmware/
+Homepage: https://github.com/Stane1983/rockchip-firmware
 Description: Firmware for Linux kernel drivers
  This package provides firmware used by Linux kernel drivers.
 
