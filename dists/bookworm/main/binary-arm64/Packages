@@ -3253,41 +3253,41 @@ Description: Collection of video4linux support libraries (development files)
  This package contains the development files.
 
 Package: libv4l-rkmpp
-Version: 1.5.1-1.1
+Version: 1.7.1-1
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
-Installed-Size: 146
-Depends: libc6 (>= 2.34), librga2, librockchip-mpp1
-Filename: dists/bookworm/main/binary-arm64/libv4l-rkmpp_1.5.1-1.1_arm64.deb
-Size: 39892
-MD5sum: 6b600b43f34155c06ca557b8f8b066ce
-SHA1: 427c4cd5c15e9e419b21fe8b8614e9543ede828d
-SHA256: 739b09928f794fc1abbff725ee0a6639a70fd0954f6c28525c254e3deae5cc37
+Installed-Size: 210
+Depends: libc6 (>= 2.34), librockchip-mpp1
+Filename: dists/bookworm/main/binary-arm64/libv4l-rkmpp_1.7.1-1_arm64.deb
+Size: 43720
+MD5sum: 51d2efd8d16da4d6ab443c869a687d72
+SHA1: da2d6d50ea22eec50a4f743997026969fc8822b4
+SHA256: ede478acfe2cad649ff160a0e74eb256aa62ecc1b885942ae1d3577e41fcdafa
 Section: libs
 Priority: optional
 Homepage: https://github.com/JeffyCN/libv4l-rkmpp
-Description: A rockchip-mpp V4L2 wrapper plugin for chromium V4L2 VDA
- A V4L2 plugin that wraps rockchip-mpp for the chromium's V4L2 VDA.
+Description: A rockchip-mpp V4L2 wrapper plugin for chromium video dec and enc
+ A V4L2 plugin that wraps rockchip-mpp for the chromium's V4L2 video decoder and VEA.
  .
  The original idea comes from v4l-gst.
 
 Package: libv4l-rkmpp-dbgsym
 Source: libv4l-rkmpp
-Version: 1.5.1-1.1
+Version: 1.7.1-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
-Installed-Size: 148
-Depends: libv4l-rkmpp (= 1.5.1-1.1)
-Filename: dists/bookworm/main/binary-arm64/libv4l-rkmpp-dbgsym_1.5.1-1.1_arm64.deb
-Size: 130744
-MD5sum: ae2a63b277a5ccb71b2aade597f4ff96
-SHA1: 31e49507a575f1f59f6e9ff96caa93099f3c79b3
-SHA256: b3d724b814f5b6250832e4c94e5efe4795bfce6a7ddf8d25284df284368e31a7
+Installed-Size: 159
+Depends: libv4l-rkmpp (= 1.7.1-1)
+Filename: dists/bookworm/main/binary-arm64/libv4l-rkmpp-dbgsym_1.7.1-1_arm64.deb
+Size: 141444
+MD5sum: b1fbdc9ef3b6bab9f541ba1bde6165ce
+SHA1: 3c4355bf53bffdcb05401a65a715e632c1a442ed
+SHA256: ced9f34bb2df70b2ba52bae48d2d4945d1afa75ad98a271ae07b0759118df1e5
 Section: debug
 Priority: optional
 Description: debug symbols for libv4l-rkmpp
-Build-Ids: 74d3eebf66cc48bc73f7a886b6320ac4577db75d
+Build-Ids: 42d94cdd43ff0b7fbabb666a15f83d7e90420029
 
 Package: libv4l2rds0
 Source: v4l-utils
