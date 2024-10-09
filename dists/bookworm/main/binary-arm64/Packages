@@ -1,3 +1,218 @@
+Package: chromium
+Version: 129.0.6668.89-1~deb12u1
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 252580
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc++1-16 (>= 1:16.0.6), libc++abi1-16 (>= 1:16.0.6), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libdrm2 (>= 2.4.75), libevent-2.1-7 (>= 2.1.8-stable), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libtiff6 (>= 4.0.3), libudev1 (>= 183), libunwind-16 (>= 1:16.0.6), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 129.0.6668.89-1~deb12u1)
+Recommends: chromium-sandbox
+Suggests: chromium-l10n, chromium-shell, chromium-driver
+Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
+Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
+Provides: gnome-www-browser, www-browser
+Filename: dists/bookworm/main/binary-arm64/chromium_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 74922548
+MD5sum: f70f2fd423f1bd3142ba12df45ce5bde
+SHA1: af866526f357e8c351b7f2415d8789f95955c1a9
+SHA256: ffe32982b9d9b4b4a3397ba0ec9eda6c664ca40e47841f4940e9a10c52de25b6
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the web browser component.
+
+Package: chromium-common
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 55083
+Depends: libc++1-16 (>= 1:16.0.6), libc++abi1-16 (>= 1:16.0.6), libc6 (>= 2.34), libdrm2 (>= 2.3.1), libunwind-16 (>= 1:16.0.6), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
+Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
+Breaks: chromium (<< 129.0.6668.89-1~deb12u1)
+Replaces: chromium (<< 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-common_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 13410016
+MD5sum: 1e0f983334ef89d1312dad3c1db3296e
+SHA1: 58460e40ab25a5a54f81b71c66acba7d0202110f
+SHA256: 1a2d3b5f0f5806b0ab980f412c47cbdc7aea349adad854894b1df5ef540ded3d
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - common resources used by the chromium packages
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains resources that are in common to different chromium
+ packages.
+
+Package: chromium-common-dbgsym
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 20217
+Depends: chromium-common (= 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-common-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 5436788
+MD5sum: e9b5e6aa2943dfb44f4c01b1f32a06dd
+SHA1: fd7939710cdc05cf5efa435567190da986015898
+SHA256: e1cfc10e6acfd240fd7d9dc390f95bf90b00539d41af2278c7a8d60b816bd5cd
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-common
+Build-Ids: 1997afc4ee0442067a8df91f1de25c8edc47aac4 2823d1140bccdf1c3c05878ac09140d1d623a423 42f31b917db3eedb364f3948a9cd4b4c24bbb4e9 6b0a8cdb0006d7abab1d7a46ba095534400e971a 7f07ba448a88a6565bd45dd98cb9d8b3a76f4d2c bbaa601b2f58bc218f42ab9044973099331a01af eb51d5bb9e866577e7864d3c519c2c0c518013c1
+
+Package: chromium-dbgsym
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 143300
+Depends: chromium (= 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 34199144
+MD5sum: 79b03c987c11d5e36e6cf9597a957cde
+SHA1: 9b52b3e860243c2a2312bb78eeb6ff1255c37d8c
+SHA256: 912e323d1df5f9cf8f1554f7f20e9b510fd18325640c57ef051083eea21a0501
+Section: debug
+Priority: optional
+Description: debug symbols for chromium
+Build-Ids: 3b67bc9c7be850c66b7999c10e6a9fda48eaf5d4
+
+Package: chromium-driver
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 16566
+Depends: libc++1-16 (>= 1:16.0.6), libc++abi1-16 (>= 1:16.0.6), libc6 (>= 2.34), libdouble-conversion3 (>= 2.0.0), libevent-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libunwind-16 (>= 1:16.0.6), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-driver_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 5879528
+MD5sum: 1e6a10d848088454c0b9f0795772d5a4
+SHA1: 7e3bcdf856f11618e27e4cf0f714b211eb827340
+SHA256: 1fdfcf6ebab90d83a287acda06822593e29795e27dc6fcb3f152996ec548b1f1
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - WebDriver support
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package provides a bridge between the browser component and the selenium
+ automatic webdriver.
+
+Package: chromium-l10n
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Architecture: all
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 101592
+Depends: chromium (>= 129.0.6668.89-1~deb12u1), chromium (<< 129.0.6668.89-1~deb12u1.1~)
+Filename: dists/bookworm/main/binary-arm64/chromium-l10n_129.0.6668.89-1~deb12u1_all.deb
+Size: 7701224
+MD5sum: 890030ebc7980a2349fa1307737875d2
+SHA1: 22984aa5ae132a3b3b798377ddbba5ebf669534c
+SHA256: bc23e20444fcb0ec352b784ded7e7143e73ebcd4e3c754a7cef95fd4b296cdd6
+Section: localization
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - language packs
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains language packages for:
+ am, ar, bg, bn, ca, cs, da, de, el, en-GB, es-419, es, et, fi, fil, fr, gu, he,
+ hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, nb, nl, pl, pt-BR, pt-PT,
+ ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
+
+Package: chromium-sandbox
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 355
+Depends: libc6 (>= 2.34)
+Breaks: chromium (<< 129.0.6668.89-1~deb12u1)
+Replaces: chromium (<< 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-sandbox_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 95912
+MD5sum: 343a98cd728f292b40b9698802d690b8
+SHA1: d0ec83d598e7f8ec1c7eecf08e72fe59366e63a0
+SHA256: 43c33ae6af2aee10b8d7c339c5af70032c7f8d34669ae3ad82842e7eae72a1dd
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - setuid security sandbox for chromium
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the setuid chromium sandbox.
+
+Package: chromium-sandbox-dbgsym
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 31
+Depends: chromium-sandbox (= 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-sandbox-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 14104
+MD5sum: 457c39c39705d7e0eaf8d2a8dfc337d5
+SHA1: 58125bd519059f3842e7a26b4dae8e2afd17933e
+SHA256: aeff7fe6bca3b1d0cb16475bbbacf915f675337d2c9d46a5f8119252b7ced21c
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-sandbox
+Build-Ids: 7ad6d98b722433b53c840e66d7dd8cbc4164c2fd
+
+Package: chromium-shell
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 164573
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc++1-16 (>= 1:16.0.6), libc++abi1-16 (>= 1:16.0.6), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libdrm2 (>= 2.4.75), libevent-2.1-7 (>= 2.1.8-stable), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libunwind-16 (>= 1:16.0.6), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 129.0.6668.89-1~deb12u1)
+Breaks: chromium (<< 129.0.6668.89-1~deb12u1)
+Replaces: chromium (<< 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-shell_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 46306904
+MD5sum: 1cb03d225e8a58a0e426d7093649489b
+SHA1: dd84db0a8b11a7fef31b40de7fd48e4c8026b2ff
+SHA256: 5ab41d0625c5caf5199d17b4bc593c5f146ac6c7596833baaabfc3e7ff2b41d5
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - minimal shell
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package provides a minimal version of the chromium user interface
+ (the content shell).
+
+Package: chromium-shell-dbgsym
+Source: chromium
+Version: 129.0.6668.89-1~deb12u1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+Installed-Size: 125272
+Depends: chromium-shell (= 129.0.6668.89-1~deb12u1)
+Filename: dists/bookworm/main/binary-arm64/chromium-shell-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
+Size: 28420608
+MD5sum: d8569cf6e407b83168152190a660dcfe
+SHA1: 3624bcf27aa5b420ba7a9ce748bdfebcaaa2731b
+SHA256: fcd96c4fb31eb63ea76105da2a8bed8a1b07482b2b9d7b1be790d3a2d8d01831
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-shell
+Build-Ids: ee6b7ce23b3948c742148d92ea8a20443a34cfe0
+
 Package: dvb-tools
 Source: v4l-utils
 Version: 1.22.1-5

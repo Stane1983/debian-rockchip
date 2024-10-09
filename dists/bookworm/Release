@@ -6,9 +6,9 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Stan's Rockchip repository
-Date: Sat, 05 Oct 2024 18:00:24 +0000
+Date: Wed, 09 Oct 2024 15:25:16 +0000
 MD5Sum:
- fc2ba9da0f8a41b22a4d74def07305cd 66573 InRelease
+ e3de89f228d57d5dc0de2aacba71a7dd 66561 InRelease
  e6eeb847fd6fb435e7adadc2d7b5f54c 10760 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
  16b591720bdf2d0508952949d8a71bb6 11703300 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  aedce7a82facb1b7b0fded09afc4a4d3 2645124 main/binary-arm64/xnest-dbgsym_21.1.7-3+deb12u2_arm64.deb
@@ -18,7 +18,7 @@ MD5Sum:
  ca2bab9e1e2ddc97b3e3634f7fd10780 608784 main/binary-arm64/xnest_21.1.7-3+deb12u2_arm64.deb
  4efcbe1260a3b23c0ad93725403e9f68 26008 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  978a2ad3663ec093d213daeb67f7b8a2 10688 main/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
- 7155df388be800edbc270c34ddcc66ee 41633 main/binary-arm64/Packages.gz
+ bf161c2910e24a8801a109be20badd92 44315 main/binary-arm64/Packages.gz
  339c1a2ecd2f26ae806dcd0bbfe410c9 205764 main/binary-arm64/libv4lconvert0-dbgsym_1.22.1-5_arm64.deb
  64b6aa02aa94a9ce23bea2a79dd6f802 635772 main/binary-arm64/libswscale6-dbgsym_7.0.2-0+deb12u1_arm64.deb
  346024ed04652b752948717f5306cc4e 12455068 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
@@ -44,6 +44,7 @@ MD5Sum:
  c7834e1af7fc96bf66213ae085696121 73572 main/binary-arm64/libpostproc56_7.0.2-0+deb12u1_arm64.deb
  3a26552a589ee3ea76f4aa15258c119b 26032 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  5fd676ab41a188271ef3a1dd0ce59cc2 27684 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm-dbgsym_1.9-1_arm64.deb
+ 79b03c987c11d5e36e6cf9597a957cde 34199144 main/binary-arm64/chromium-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  82b10097ba9a0bd4ecf3598183a198c0 521072 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  cbb9a61ce9e7a033a24c4e912e85c072 10940 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  f7b4ef8f01263185943253375592824e 114560 main/binary-arm64/dvb-tools_1.22.1-5_arm64.deb
@@ -58,6 +59,7 @@ MD5Sum:
  0da22ac30d160cdc6721eeef9e473d15 147288 main/binary-arm64/ir-keytable_1.22.1-5_arm64.deb
  aeb6d5fa13f951720c411f7d16e30fca 12756 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  4caa8e39afa6970a3c0a457ac592c574 5600864 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 343a98cd728f292b40b9698802d690b8 95912 main/binary-arm64/chromium-sandbox_129.0.6668.89-1~deb12u1_arm64.deb
  9719f673c4cff37b789887a6f8fe4b12 1092372 main/binary-arm64/libavformat-extra59_7.0.2-0+deb12u1_arm64.deb
  81c506cdf7517c59f8805ec61c5ab890 690656 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.0-4+deb12u1_arm64.deb
  4b85e8fd725c328176a0c7a037407b15 11140 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
@@ -93,6 +95,7 @@ MD5Sum:
  d9536c668444c23127916f9d40b58f84 758880 main/binary-arm64/libavutil57-dbgsym_7.0.2-0+deb12u1_arm64.deb
  1d24d06542baa81434d1411e287789cb 12460948 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
  152528195432cca9ad3977e28073a89c 10892 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm-dbgsym_1.9-1_arm64.deb
+ e9b5e6aa2943dfb44f4c01b1f32a06dd 5436788 main/binary-arm64/chromium-common-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  0e91d110fbf49dae193b506c02c80a06 97752 main/binary-arm64/libswresample4-dbgsym_7.0.2-0+deb12u1_arm64.deb
  c672b79575f4dea58e7dc22578baabf3 5375196 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
  e311ae277332aadfe9dd33ae7e3e9cac 171860 main/binary-arm64/libdvbv5-0_1.22.1-5_arm64.deb
@@ -101,6 +104,7 @@ MD5Sum:
  532b4620744201eecff3af4780d69fba 11974992 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
  70206eede5b653b3f1e8b0cdc8dd7af7 8010540 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
  ff361e5bba7369f754ef9d26cd1b471f 328468 main/binary-arm64/libavutil57_7.0.2-0+deb12u1_arm64.deb
+ 1cb03d225e8a58a0e426d7093649489b 46306904 main/binary-arm64/chromium-shell_129.0.6668.89-1~deb12u1_arm64.deb
  d7efd7393e4b5b6c366de6ef4c530815 5724092 main/binary-arm64/libavcodec-dev_7.0.2-0+deb12u1_arm64.deb
  6b1770983e25a863e6bb2a31d2d207a7 21276 main/binary-arm64/libv4l2rds0-dbgsym_1.22.1-5_arm64.deb
  b7ffd3d8064b811d6faaeb9f4f452550 34352 main/binary-arm64/xserver-xorg-legacy_21.1.7-3+deb12u2_arm64.deb
@@ -111,6 +115,7 @@ MD5Sum:
  614944a7e46db7c6a55542653b75b9ae 69884 main/binary-arm64/librga2_2.2.0-1_arm64.deb
  9c0c739e7dd7c70cb4dad8138fe29f4c 52408 main/binary-arm64/libavcodec-extra_7.0.2-0+deb12u1_arm64.deb
  ca45f12dff58b701e8db181d658597a3 8756 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-dbgsym_1.9-1_arm64.deb
+ 1e6a10d848088454c0b9f0795772d5a4 5879528 main/binary-arm64/chromium-driver_129.0.6668.89-1~deb12u1_arm64.deb
  fe4d883e0d2190ea816f8a95dba23574 146884 main/binary-arm64/libgstreamer-opencv1.0-0_1.22.0-4+deb12u1_arm64.deb
  0b0b538d2b4f7ccf07ae60b8cf43278c 12448392 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
  4bd29828c49f15e9943ea43d3945bfa0 50716 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
@@ -124,7 +129,7 @@ MD5Sum:
  ac05bc318953f9549c696ae332d371cf 15200 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
  51d2efd8d16da4d6ab443c869a687d72 43720 main/binary-arm64/libv4l-rkmpp_1.7.1-1_arm64.deb
  be18b5bd7962394f3ffb49ee51095cae 74312 main/binary-arm64/libpostproc-dev_7.0.2-0+deb12u1_arm64.deb
- 8451d5df0a9ffb9a6d057cea8604b805 172022 main/binary-arm64/Packages
+ e45f87573c1ed96cedf1614f13e8dc7f 183422 main/binary-arm64/Packages
  ac49951fe09834e4aa175fff85dc0bdf 12452944 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
  f03a28a70d3a40fb6011db87c35f5ae1 11136 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  cadd6bd7785a6bad64ff4881d4429074 11020 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym_1.9-1_arm64.deb
@@ -144,6 +149,7 @@ MD5Sum:
  5348d2f4695192077acb3e65d80ab07d 11104 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  325c22095ebf87cc1319e40a43f94ba1 25956 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  6116d1542e645c399b8734170883e97a 11124 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
+ f70f2fd423f1bd3142ba12df45ce5bde 74922548 main/binary-arm64/chromium_129.0.6668.89-1~deb12u1_arm64.deb
  f430c03b8481e74b7cd9695144d61a3b 9472 main/binary-arm64/xserver-xorg-legacy-dbgsym_21.1.7-3+deb12u2_arm64.deb
  80978de2d8b1f41dbde5ff8c7b3948fc 11690844 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
  74506c6a1746e3a2bce8ace866b9b143 1669984 main/binary-arm64/libavfilter-dev_7.0.2-0+deb12u1_arm64.deb
@@ -153,6 +159,7 @@ MD5Sum:
  9c3c8838a3e2223b75647b4e45761b33 5616 main/binary-arm64/rktoolkit-dbgsym_1.0.0-1_arm64.deb
  04c2e00b8a98ce292bd7eb85684d8c49 3331660 main/binary-arm64/xorg-server-source_21.1.7-3+deb12u2_all.deb
  115f7143a98b9c6e2a65d347eb12cd7b 486480 main/binary-arm64/libavutil-dev_7.0.2-0+deb12u1_arm64.deb
+ d8569cf6e407b83168152190a660dcfe 28420608 main/binary-arm64/chromium-shell-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  ca79a417f799588a2632117b4e114401 472992 main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
  97f84bccebadf0e9643556df1806d3d0 172448 main/binary-arm64/qvidcap_1.22.1-5_arm64.deb
  1e2511a240c4f039038649024fa482d6 25784 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
@@ -161,6 +168,7 @@ MD5Sum:
  b69161350ab7ef776dec59dbbe885929 90108 main/binary-arm64/dvb-tools-dbgsym_1.22.1-5_arm64.deb
  2c15f8821b31aff0bc3074bf2a351226 8768 main/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_1.9-1_arm64.deb
  0c8d8d5a46b9f1adebb777879aae2405 729844 main/binary-arm64/xvfb_21.1.7-3+deb12u2_arm64.deb
+ 890030ebc7980a2349fa1307737875d2 7701224 main/binary-arm64/chromium-l10n_129.0.6668.89-1~deb12u1_all.deb
  7bab867df7a9089e68b9443396ff6677 11982528 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
  84e2491d0d3f9076ede471f81759094f 141680 main/binary-arm64/libv4lconvert0_1.22.1-5_arm64.deb
  966a9bdd580f8ebb582b717be6af19b0 10816 main/binary-arm64/libmali-valhall-g610-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -181,8 +189,10 @@ MD5Sum:
  7e7d6ce9a6c72d6919a7564171071d97 30096 main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
  76d92dd1d5d4fdcd5abbfd92f8f41b08 1089640 main/binary-arm64/libavformat59_7.0.2-0+deb12u1_arm64.deb
  dfac5eeed1541e59051c5c94d1d98b09 8009628 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
+ 457c39c39705d7e0eaf8d2a8dfc337d5 14104 main/binary-arm64/chromium-sandbox-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  4beb01ace8b2050633685c20f58f85a9 3497136 main/binary-arm64/libavformat-extra59-dbgsym_7.0.2-0+deb12u1_arm64.deb
  466914670adfa8c50d6e60bb9da7458d 5607220 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 1e0f983334ef89d1312dad3c1db3296e 13410016 main/binary-arm64/chromium-common_129.0.6668.89-1~deb12u1_arm64.deb
  aeca0f259e56fede2888696b57a29a3e 12452840 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
  0986e6ec9598bcbcba01994c85463b5b 10800 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
  5be79cffab8088d121a51ddc45707b00 12618604 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
@@ -191,9 +201,9 @@ MD5Sum:
  75d6bc8e5e5d2be4d35390f08ddde79d 609000 main/binary-arm64/v4l-utils_1.22.1-5_arm64.deb
  e58630ae10feaabc4a575f955ff7ae9a 26252 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
  605756832fc2eaf8145f7e4ca9c05f65 28900 main/binary-arm64/xserver-common_21.1.7-3+deb12u2_all.deb
- 65144d880e1d3580a0a237915eb4da75 858 Release.gpg
+ d53b48d3beb7ca12291481d9ef837586 858 Release.gpg
 SHA1:
- 6b0294623cc64c5c04e93b4335afa13d541b3616 66573 InRelease
+ 7627b76cff17057c061b57ad3299643dd7524317 66561 InRelease
  3bb557170ae0a5b2ced8be09175a4323ed2fc2fd 10760 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
  526de7f54fd4f0e047b8ff95d71fef9f74935ec3 11703300 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  b0d430b7cc8c0173633446f49df2fd9a83a58249 2645124 main/binary-arm64/xnest-dbgsym_21.1.7-3+deb12u2_arm64.deb
@@ -203,7 +213,7 @@ SHA1:
  9dc620f0a36cf9488406f69c6a82d6d6d1a0d767 608784 main/binary-arm64/xnest_21.1.7-3+deb12u2_arm64.deb
  04aafdc1992806ca6cf68817ddedf5fb6afbec09 26008 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  609bf30f54c9ed1feeb4526b527fb2559b1f0c27 10688 main/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
- f98f48b417fec24c0b922a2fd7767c21d7f5db79 41633 main/binary-arm64/Packages.gz
+ ddf6132d1900c4b64d79cdbe8c3dc5e318aba1fe 44315 main/binary-arm64/Packages.gz
  2daf1476f41084b4e0ccf55ec85eda0d7b57c553 205764 main/binary-arm64/libv4lconvert0-dbgsym_1.22.1-5_arm64.deb
  4fce12199f88b42b3510d7e6e784534ba8fc158a 635772 main/binary-arm64/libswscale6-dbgsym_7.0.2-0+deb12u1_arm64.deb
  3073471f6df5b3dbb36dbbbb666f62259fefea4e 12455068 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
@@ -229,6 +239,7 @@ SHA1:
  a37feb48c537daed91f7446e0754a1e264f03421 73572 main/binary-arm64/libpostproc56_7.0.2-0+deb12u1_arm64.deb
  23763649e42bb8f5d0d314de67301c168e49327c 26032 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  8df205150a4590d7cf4d6945cf24e28300cdb36a 27684 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm-dbgsym_1.9-1_arm64.deb
+ 9b52b3e860243c2a2312bb78eeb6ff1255c37d8c 34199144 main/binary-arm64/chromium-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  c1a7e9c27b378f4534686129990a27df452d451e 521072 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  fd76a97616d4db8e4904088d0a174e14994f23e9 10940 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  0fd4e54bde396877e92020c9a70695df12fce938 114560 main/binary-arm64/dvb-tools_1.22.1-5_arm64.deb
@@ -243,6 +254,7 @@ SHA1:
  076ca90d5d5fbf024441201bbf481cd1c317020e 147288 main/binary-arm64/ir-keytable_1.22.1-5_arm64.deb
  05871ca484ed24143045b6f13df2f535f1a9ed25 12756 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  9e7af513d2976e77fecfffd4ae82492900e7cd62 5600864 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ d0ec83d598e7f8ec1c7eecf08e72fe59366e63a0 95912 main/binary-arm64/chromium-sandbox_129.0.6668.89-1~deb12u1_arm64.deb
  cabd3f2e8a72dccf4c25dace7e6b4c5d2e5d512e 1092372 main/binary-arm64/libavformat-extra59_7.0.2-0+deb12u1_arm64.deb
  01275288cfbd8320303db70678ba68871d27d1b6 690656 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.0-4+deb12u1_arm64.deb
  661142f0b75a397912aefc5a99e1ac07bf90c8c0 11140 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
@@ -278,6 +290,7 @@ SHA1:
  18b13dc5cba1b008161992b1dd702e16dd32e41a 758880 main/binary-arm64/libavutil57-dbgsym_7.0.2-0+deb12u1_arm64.deb
  92575d35f51bfae8708a4486ff86e9945027c936 12460948 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
  5e3923dda7389b5de23564479ebcbbcc543a0613 10892 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm-dbgsym_1.9-1_arm64.deb
+ fd7939710cdc05cf5efa435567190da986015898 5436788 main/binary-arm64/chromium-common-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  43a1c478986bf941e43f43acb91eb3bdee9688b6 97752 main/binary-arm64/libswresample4-dbgsym_7.0.2-0+deb12u1_arm64.deb
  5339b0a82e072bc40a609643f6a518a555efc254 5375196 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
  f99130ce476a19cc073a1528f616b88fa54f2a4c 171860 main/binary-arm64/libdvbv5-0_1.22.1-5_arm64.deb
@@ -286,6 +299,7 @@ SHA1:
  319f96c76ea7afdd9c439fa4c378bf46de19aa48 11974992 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
  8697c9295eadef46a6ce34630ef4f6127a0b4899 8010540 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
  6f66ae325669e88ef4d279ce4fa8325593c0a1ad 328468 main/binary-arm64/libavutil57_7.0.2-0+deb12u1_arm64.deb
+ dd84db0a8b11a7fef31b40de7fd48e4c8026b2ff 46306904 main/binary-arm64/chromium-shell_129.0.6668.89-1~deb12u1_arm64.deb
  30d27e149d3c3ee33baf091795d1d28a5036533d 5724092 main/binary-arm64/libavcodec-dev_7.0.2-0+deb12u1_arm64.deb
  b2a3a6b65e5454d4873537134e3daa73368c8c2b 21276 main/binary-arm64/libv4l2rds0-dbgsym_1.22.1-5_arm64.deb
  f95032ebbd5fcc22995fb23e2a70eb05a4fd8f8e 34352 main/binary-arm64/xserver-xorg-legacy_21.1.7-3+deb12u2_arm64.deb
@@ -296,6 +310,7 @@ SHA1:
  64b0f00f8367166ceedacbc1f116ed1a80c5e85c 69884 main/binary-arm64/librga2_2.2.0-1_arm64.deb
  7637f34ccbddf6c20e780c85fb4f1bb2c489cb7a 52408 main/binary-arm64/libavcodec-extra_7.0.2-0+deb12u1_arm64.deb
  f511ecf03c886d49b6880a86f151d34367c79f89 8756 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-dbgsym_1.9-1_arm64.deb
+ 7e3bcdf856f11618e27e4cf0f714b211eb827340 5879528 main/binary-arm64/chromium-driver_129.0.6668.89-1~deb12u1_arm64.deb
  f959b35542051fefff6fcaba94093905baeed767 146884 main/binary-arm64/libgstreamer-opencv1.0-0_1.22.0-4+deb12u1_arm64.deb
  e6fc64e1298f396e78ac894727b26dab77143256 12448392 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
  7bf5825f93ade7d824113b79cf7fe0e31c440370 50716 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
@@ -309,7 +324,7 @@ SHA1:
  7e1320c691c0eceef77dc5a3670e2f8d4af91cd4 15200 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
  da2d6d50ea22eec50a4f743997026969fc8822b4 43720 main/binary-arm64/libv4l-rkmpp_1.7.1-1_arm64.deb
  785c8b53685708e146f43fa16122a23be941b898 74312 main/binary-arm64/libpostproc-dev_7.0.2-0+deb12u1_arm64.deb
- fdd093f0296d03f96f0767b5f5a48197503cebcd 172022 main/binary-arm64/Packages
+ 04b7353292bdf35334dda1cad9d1d8e4f080e9f2 183422 main/binary-arm64/Packages
  a14ff10b38e4ebe8d9aacacf50f2de8b0f9718ec 12452944 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
  493d1a14be52c07f6782f2396a3088c9f4b4388d 11136 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  1a0b331d400090f72dcff71e70a6a16f01891616 11020 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym_1.9-1_arm64.deb
@@ -329,6 +344,7 @@ SHA1:
  c3b73083f19ff9250762e955b1697742f4f14a95 11104 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  fba243b5eaa04b994ed701fda44914286f4d45de 25956 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  fde34f1558e4e6f4724734320c4e4dd99c4146ef 11124 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
+ af866526f357e8c351b7f2415d8789f95955c1a9 74922548 main/binary-arm64/chromium_129.0.6668.89-1~deb12u1_arm64.deb
  31b31145ba1ddeb4a110f32385f37fd056f13128 9472 main/binary-arm64/xserver-xorg-legacy-dbgsym_21.1.7-3+deb12u2_arm64.deb
  081f471d164544b621939dcc03196bf48c2b9c6c 11690844 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
  1bd00912bba9c20214edace33db4b02565c05ea4 1669984 main/binary-arm64/libavfilter-dev_7.0.2-0+deb12u1_arm64.deb
@@ -338,6 +354,7 @@ SHA1:
  a76cc8a5f2229b2cdde889f43a8aa1396eadd77d 5616 main/binary-arm64/rktoolkit-dbgsym_1.0.0-1_arm64.deb
  e9dcacd370ffd6f0f45c0e00d79b1952ccf7ed2b 3331660 main/binary-arm64/xorg-server-source_21.1.7-3+deb12u2_all.deb
  8cf80c97199ffc8fd033deff14f32bf74b101036 486480 main/binary-arm64/libavutil-dev_7.0.2-0+deb12u1_arm64.deb
+ 3624bcf27aa5b420ba7a9ce748bdfebcaaa2731b 28420608 main/binary-arm64/chromium-shell-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  b59c6681dc52223bb3dbcf66cc585ee3a8bdf604 472992 main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
  4f98dd276e20318e8458bd036f8966b9e20780b5 172448 main/binary-arm64/qvidcap_1.22.1-5_arm64.deb
  8ce683bf697d1520679e9040a4b5b908d7f26ebf 25784 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
@@ -346,6 +363,7 @@ SHA1:
  a2a30f47edc43d6b669c906478fca88e5ef75fdf 90108 main/binary-arm64/dvb-tools-dbgsym_1.22.1-5_arm64.deb
  e575f9882a83adc723521651aef61dea9ccb4709 8768 main/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_1.9-1_arm64.deb
  ed7aa92aa2b180bdf0b0567c23efd727be53e0ea 729844 main/binary-arm64/xvfb_21.1.7-3+deb12u2_arm64.deb
+ 22984aa5ae132a3b3b798377ddbba5ebf669534c 7701224 main/binary-arm64/chromium-l10n_129.0.6668.89-1~deb12u1_all.deb
  fff16f9b4779498fbbc6cfb5d1b940e9a6476b8f 11982528 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
  4ce673e9070d98a630c22107df682ab13815a106 141680 main/binary-arm64/libv4lconvert0_1.22.1-5_arm64.deb
  4fde684ca73d3dec31ae8e98550caee4d295c08d 10816 main/binary-arm64/libmali-valhall-g610-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -366,8 +384,10 @@ SHA1:
  a783b370e489a9e43d51bb4467f99ed52b13a293 30096 main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
  4809a5ba15c0f014d2af09ff22ac9c161793deea 1089640 main/binary-arm64/libavformat59_7.0.2-0+deb12u1_arm64.deb
  3ce1ba7456f5eb8129eac35613e4b3684b31dcf3 8009628 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
+ 58125bd519059f3842e7a26b4dae8e2afd17933e 14104 main/binary-arm64/chromium-sandbox-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  728ced4060b70537fdafc4d768620cbf7c107428 3497136 main/binary-arm64/libavformat-extra59-dbgsym_7.0.2-0+deb12u1_arm64.deb
  9487483ff456d2c4af104b24c22271aa2eedba9f 5607220 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 58460e40ab25a5a54f81b71c66acba7d0202110f 13410016 main/binary-arm64/chromium-common_129.0.6668.89-1~deb12u1_arm64.deb
  dbb396689075c41d7bfb9ba71ad7901c83337d04 12452840 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
  dc539bf1465b2e9631562d9a70f899e7a2829914 10800 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
  b0c925f598cc9bc9fd7f29c03fca207d33af91ef 12618604 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
@@ -376,9 +396,9 @@ SHA1:
  c23117e9e978e34571af36a4546eb0ae27af5567 609000 main/binary-arm64/v4l-utils_1.22.1-5_arm64.deb
  6f4e4dea7dddd3af1ebd183a087255b029e97db3 26252 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
  a4523919dc92d30310c755216f3755d4482d13d2 28900 main/binary-arm64/xserver-common_21.1.7-3+deb12u2_all.deb
- 62bdfa532f5fcdb4c5c494e26e5f1c1de4712e48 858 Release.gpg
+ 451a326e2f02ce2a068b5eb038397f3ee1c75a4e 858 Release.gpg
 SHA256:
- 3c3a57ec5d4880d6ef9b7e9b5976b208a231db61782ca4b025a4295ade6b2063 66573 InRelease
+ 38a07f2c9cd3af11dacde4eb2f105cceda07f081a0f767ae4b47c3e8deffe594 66561 InRelease
  543f5441bcae8131ae9f6470ed0f02ae1873dbf82c9441059fbef76070a10961 10760 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
  344ee805813850b42273630c39fe53c68c3e6b89141d0f0429866270284ea16c 11703300 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  6b37d2954115bf49cedf0202a42516562b32eed7450310101f511199a6be653c 2645124 main/binary-arm64/xnest-dbgsym_21.1.7-3+deb12u2_arm64.deb
@@ -388,7 +408,7 @@ SHA256:
  924d30ed8ad08a8acca30d47e0df9c7cba6cc5e517e19f5d3e1eeb91651bd74e 608784 main/binary-arm64/xnest_21.1.7-3+deb12u2_arm64.deb
  2ac62b522dd71a7530e47764af5f6cf9939980cc909c88340c6a923eb890230c 26008 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  e323859c7b5fe92befe82c43f48aafd5dff6d7650b3344e6557061d95d253112 10688 main/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
- 6afa37fc347fdf9b6804a32bcc5cba1b0053035ac119bd88f7ed0e089d298249 41633 main/binary-arm64/Packages.gz
+ 3262458b5b3dd704458ac2de6d49a75659a14c545e32cf1ad2c513730154c7e2 44315 main/binary-arm64/Packages.gz
  cc0b6796a477fa75e266f75ce89a904449eed13f30a3fb07bf0e9d30a0287c8e 205764 main/binary-arm64/libv4lconvert0-dbgsym_1.22.1-5_arm64.deb
  7e42707cc20cda7a7440da4d939eda6d5adcd20814928a213e4adc2ea457bdf9 635772 main/binary-arm64/libswscale6-dbgsym_7.0.2-0+deb12u1_arm64.deb
  6880aef9fd3b421a38c52e5f165c7069e736cd7cb946bc4f732de62f05fd0ee2 12455068 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
@@ -414,6 +434,7 @@ SHA256:
  785ce8546638b80d63a36c3a220a2b78048e8c7f329af8dab0a1d5f9f43447b5 73572 main/binary-arm64/libpostproc56_7.0.2-0+deb12u1_arm64.deb
  7981e092c7ce3465b74599265898bf6fb71dd1118db9c2875521ef70130dc696 26032 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  d2564306fa15cd288c59a0112fb042b9a6c939e89686db2382a3c9c216fb8cf8 27684 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm-dbgsym_1.9-1_arm64.deb
+ 912e323d1df5f9cf8f1554f7f20e9b510fd18325640c57ef051083eea21a0501 34199144 main/binary-arm64/chromium-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  548389a7845530e0793865029b0fbddcfbdc22896b41615b1b9b32835d65fbe4 521072 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  e72f7a2b24420a1a0a31ac5f1c2e870925eb852528cccf785ed0927e1e941cab 10940 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  8259017e01665320e79a2c5ce65f94bcde75f5c75583d8b7beec026b6b3dc32c 114560 main/binary-arm64/dvb-tools_1.22.1-5_arm64.deb
@@ -428,6 +449,7 @@ SHA256:
  edd2cfe1126453a1ef84151ea5c6928ca91cd1858f3f8d4e035549dd7cf49d97 147288 main/binary-arm64/ir-keytable_1.22.1-5_arm64.deb
  63b6fee96a5e9aae8f43a547b3f41a4f1b9935182545879a3448d6eb3f827ee9 12756 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  8f9b1f8a6861e5c82e64f2c8d69aa680c85bdf753e6484c766ded7d3741de95e 5600864 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 43c33ae6af2aee10b8d7c339c5af70032c7f8d34669ae3ad82842e7eae72a1dd 95912 main/binary-arm64/chromium-sandbox_129.0.6668.89-1~deb12u1_arm64.deb
  bba5fdc2ae882ee971cb9c335239a6b0a3cabac87e82d0908378f10fb71ea45d 1092372 main/binary-arm64/libavformat-extra59_7.0.2-0+deb12u1_arm64.deb
  abe67f96b17443a3d20232aeb8a4ec59f0e28630dfb0b5f529b8a7a58c8eef36 690656 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.0-4+deb12u1_arm64.deb
  3655a2280a25423ec2c66d1ea0b93a609a70020713c7d95ff7a83fb8afe0602f 11140 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
@@ -463,6 +485,7 @@ SHA256:
  af39167ece0bc76956180b9164539616b9d6b5f37705b3f6fdd6260cc9faf82f 758880 main/binary-arm64/libavutil57-dbgsym_7.0.2-0+deb12u1_arm64.deb
  a10423ec10588e71fb9bbdc2f6602c60f5f2e39f0a0ad79203420f8ef38203fc 12460948 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
  6845f46943918c1c977b50e63dac65585d5e444fb5849be5888d3472e62f104b 10892 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm-dbgsym_1.9-1_arm64.deb
+ e1cfc10e6acfd240fd7d9dc390f95bf90b00539d41af2278c7a8d60b816bd5cd 5436788 main/binary-arm64/chromium-common-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  bf73a536d6e58c8bda7f5114c0f6e3ddf013eaebe496cd4ef80acac3d57860ed 97752 main/binary-arm64/libswresample4-dbgsym_7.0.2-0+deb12u1_arm64.deb
  9aa04bd66cf9a4ef72cd169bc7da8199bd68a7c6d50950e083c867ca0c162ce4 5375196 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
  9305cda7cdb6018140c8f80f0da343a27ac703e237aaf333fd01629bca1e9eaf 171860 main/binary-arm64/libdvbv5-0_1.22.1-5_arm64.deb
@@ -471,6 +494,7 @@ SHA256:
  3ede641131c17a59db95c6eb01379611227d6654536c68eaf03ef1c81dfca38b 11974992 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
  8be67f33f142c328884cc204e156f02bbd14e9868961c533ab84ef272e4dd365 8010540 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
  31d94dfdbbec4dfe3fe7af5ddc20051ececd28290492e339ed6aa565ae161ddd 328468 main/binary-arm64/libavutil57_7.0.2-0+deb12u1_arm64.deb
+ 5ab41d0625c5caf5199d17b4bc593c5f146ac6c7596833baaabfc3e7ff2b41d5 46306904 main/binary-arm64/chromium-shell_129.0.6668.89-1~deb12u1_arm64.deb
  c14484badb733590b1eb1a92bc5826878ac8304be47f2fcb49a744d3d4428c3f 5724092 main/binary-arm64/libavcodec-dev_7.0.2-0+deb12u1_arm64.deb
  3d9318263049f15c2b97ce8c62786de901e32bc0055f16df5d3fa841294e21c4 21276 main/binary-arm64/libv4l2rds0-dbgsym_1.22.1-5_arm64.deb
  8e943f836ca111e15fb9ad7c06dfd421c8da8c9000cd599488e027d301afe8ea 34352 main/binary-arm64/xserver-xorg-legacy_21.1.7-3+deb12u2_arm64.deb
@@ -481,6 +505,7 @@ SHA256:
  89f6b6ac429a2993c33eaf0c5dbfdff6dcc5cbfc1f3178335a3789529184eaa2 69884 main/binary-arm64/librga2_2.2.0-1_arm64.deb
  e3e78c535adecbdda88b3ee272a7b10b476381004323eaa56540292ef8d56ae1 52408 main/binary-arm64/libavcodec-extra_7.0.2-0+deb12u1_arm64.deb
  101eeb4acd6c066027c0760516f78ebbc58b4b8d8a02792467443bc388e00e03 8756 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-dbgsym_1.9-1_arm64.deb
+ 1fdfcf6ebab90d83a287acda06822593e29795e27dc6fcb3f152996ec548b1f1 5879528 main/binary-arm64/chromium-driver_129.0.6668.89-1~deb12u1_arm64.deb
  3b7c7d2d2b36954f42815e464209cd71d96f3e498d9c7e57e33a22594b7db78a 146884 main/binary-arm64/libgstreamer-opencv1.0-0_1.22.0-4+deb12u1_arm64.deb
  6860d2deb90cdb4bdffabdee9dbab4b81d99ebfde08a84377fdffea00256ee9b 12448392 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
  f0edadc4a295cbf7e08fd9f46bea5954d4a129e0efe309ebb3e7f1f267c861c0 50716 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
@@ -494,7 +519,7 @@ SHA256:
  83295b6695a15436cb3f08c6ba1f908170ed47277aecf13444eba0144c9bfe72 15200 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
  ede478acfe2cad649ff160a0e74eb256aa62ecc1b885942ae1d3577e41fcdafa 43720 main/binary-arm64/libv4l-rkmpp_1.7.1-1_arm64.deb
  5a8b0c40f45f3421104752ab8ca81a7e4d16a1c7aaf93150445d1b5ee407622c 74312 main/binary-arm64/libpostproc-dev_7.0.2-0+deb12u1_arm64.deb
- b791076f6af0783cdcc8c5b2a399287c851dfa2bbdea15f9a3d4e4ade9803971 172022 main/binary-arm64/Packages
+ 7b0a4580984bf4a0268d59e10758927fa0199dcd97f3e919e2ee6ac2311b9b3b 183422 main/binary-arm64/Packages
  e796617249bb573f064a3759620229996ac4f2bbebfaebb36bdeb2f1c48c00c1 12452944 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
  8842acb83c16debfcaa44ada2f89730411500e7301291fdf076c93ddb33c2bd1 11136 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  5dcab1b95f7d254207e87144d915d091bf23e67a1134f1d99340c16d5df3a242 11020 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym_1.9-1_arm64.deb
@@ -514,6 +539,7 @@ SHA256:
  cfa0aea1ba7233d787aaf59496606c542e95f95bd11683750ea6853a78617674 11104 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  5409842d45ddcb73dd13dfbd4b77e97faf615a1535ae013593ca19b956ce2fa3 25956 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  0b2a8b3bfe82440051a324ed66513634bdb2eb359becb2088e9d42d0000de301 11124 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
+ ffe32982b9d9b4b4a3397ba0ec9eda6c664ca40e47841f4940e9a10c52de25b6 74922548 main/binary-arm64/chromium_129.0.6668.89-1~deb12u1_arm64.deb
  5b313e5dd3995f5ea4f3f5b557e5cbfd4acf445e2402f166e4ea3f9d3d72cfe5 9472 main/binary-arm64/xserver-xorg-legacy-dbgsym_21.1.7-3+deb12u2_arm64.deb
  974fdc5e7a90a34ef90e6219996237c39e432dd37d77183d48631e21550463db 11690844 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
  f2ab78c476a7c2ade4db36a3bf688a9ef862bf67527b09f58b350e7950a03614 1669984 main/binary-arm64/libavfilter-dev_7.0.2-0+deb12u1_arm64.deb
@@ -523,6 +549,7 @@ SHA256:
  73790088e3c8fbccb32e4cd75f6594468ffea511a8fe53ebf23da638d58279a5 5616 main/binary-arm64/rktoolkit-dbgsym_1.0.0-1_arm64.deb
  0fb77aa42ef701c230c1580687b5a734f60318668765e42b0fdd32ad4d55b2f5 3331660 main/binary-arm64/xorg-server-source_21.1.7-3+deb12u2_all.deb
  042c3ffe73b52ee7f2cc98a479d0953d979596019bcaa8320e04b75333d9c5e7 486480 main/binary-arm64/libavutil-dev_7.0.2-0+deb12u1_arm64.deb
+ fcd96c4fb31eb63ea76105da2a8bed8a1b07482b2b9d7b1be790d3a2d8d01831 28420608 main/binary-arm64/chromium-shell-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  ce69b7cb7d2b4dd59f05036f35d6f98b9119ff89c8fbe4b940f2f5b5b8ec42ca 472992 main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
  03017846c9b5237ecef4e1d3d2466dfeae5b8890bec9aa400550504d99c260c7 172448 main/binary-arm64/qvidcap_1.22.1-5_arm64.deb
  db921e298c77cb5fdb70214c9b35191fd66756859ad0400e7cd7305ebfd01ac3 25784 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
@@ -531,6 +558,7 @@ SHA256:
  224fbebcabd982c3724e98330b2bdec5103b27a3ad2a1eb996044a23e660806b 90108 main/binary-arm64/dvb-tools-dbgsym_1.22.1-5_arm64.deb
  04602882ce48dd7c178d24beef2bee31aa2b8203ab31fed9b025ddbf2bf77386 8768 main/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_1.9-1_arm64.deb
  81609d72d6db6be3c01c5cf6a04276e04e2753dd1f8c5d143d1b51bd5626c3cd 729844 main/binary-arm64/xvfb_21.1.7-3+deb12u2_arm64.deb
+ bc23e20444fcb0ec352b784ded7e7143e73ebcd4e3c754a7cef95fd4b296cdd6 7701224 main/binary-arm64/chromium-l10n_129.0.6668.89-1~deb12u1_all.deb
  fd47905d022a5e49bee7db6ca9eccc831f1ca18d41c4bc628332c28228674d32 11982528 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
  5bf2872bcca7016a84d114776ab4a18218c62e249da526a614583c1cacb637c5 141680 main/binary-arm64/libv4lconvert0_1.22.1-5_arm64.deb
  e0989dd9a21ca81b32646ca06e9529bd74a28059193d49b11f824b6e7e0458fb 10816 main/binary-arm64/libmali-valhall-g610-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -551,8 +579,10 @@ SHA256:
  367e39f897f9b47d0963ddf6a6a55772e98a8fa4ae71b2692cfc7b8d86bd8ca3 30096 main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
  712d2ece266a819aa9b09655d3718906d2f4b6a7f6da18025c207da12a540d95 1089640 main/binary-arm64/libavformat59_7.0.2-0+deb12u1_arm64.deb
  5938df35ad6ad7223572aa321dd93d943d44aaf819056d0260ff4d407dc41f56 8009628 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
+ aeff7fe6bca3b1d0cb16475bbbacf915f675337d2c9d46a5f8119252b7ced21c 14104 main/binary-arm64/chromium-sandbox-dbgsym_129.0.6668.89-1~deb12u1_arm64.deb
  0ef143ac8231ff16eaf9faa901cfb37055731f72eb1906ef35f92e628fbf6723 3497136 main/binary-arm64/libavformat-extra59-dbgsym_7.0.2-0+deb12u1_arm64.deb
  9e76867dc0767e3f4fe2da8f8a1c0d6d8fc3ac70c3a5b56eb0c7d87c99592372 5607220 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 1a2d3b5f0f5806b0ab980f412c47cbdc7aea349adad854894b1df5ef540ded3d 13410016 main/binary-arm64/chromium-common_129.0.6668.89-1~deb12u1_arm64.deb
  e9326d7dfc99d6a6e04ed72517745ead9392ef5147f3411e4ae83f9cfdf16e2f 12452840 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
  1f4c84bd5b50fc40f2f502ef4ffa70a58e7e6712fee8f0cd1da5aa635425cd3e 10800 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
  767a7bbe8aa02c180e0eb93d2f3436efbf0b6e1b5ef27f7de9786f382e368f25 12618604 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
@@ -561,4 +591,4 @@ SHA256:
  6fb243443012609ff31c2dd6b5a8a424434fce7cb2cfcdc6e8ebd9dd6295a3a8 609000 main/binary-arm64/v4l-utils_1.22.1-5_arm64.deb
  9e86f4122360e355546bd758a7c679666ed9bc58e636c3524b325fafb4760b9c 26252 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
  18cd4ed3e7d82fa58b4ba05df314d681a93b8f89afffa9ffbcde1da077c76589 28900 main/binary-arm64/xserver-common_21.1.7-3+deb12u2_all.deb
- f9fb600114832d4fe9ebbbdfc956c8e2ac88d095f653eb079987b620ac08807d 858 Release.gpg
+ 160ef475e5a3add56a1131ddeeb65303f435d756c536db64bb05c6f7c1953319 858 Release.gpg
